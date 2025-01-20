@@ -13,8 +13,8 @@
 
 .heroImage {
   border-radius: 50%; /* Makes the image circular */
-  height: 50%; /* Adjust height */
-  width: auto;
+  height: 250px; /* Adjust height */
+  width: 250px;
   object-fit: cover; /* Ensures the image is cropped nicely if it's not square */
 }
 
