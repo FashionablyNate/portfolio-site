@@ -1,0 +1,53 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: var(--ifm-background-color-primary);
+}
+
+.featureSvg {
+  width: 30%;
+  height: auto;
+  fill: var(--ifm-color-secondary);
+}
+
+.light-mode {
+  display: none;
+}
+
+.dark-mode {
+  display: none;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  .light-mode {
+    display: block;
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .dark-mode {
+    display: block;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  text-align: left; /* Align text to the left */
+  padding-left: 20px; /* Add padding for list indentation */
+  margin: 10px 0; /* Add spacing around the list */
+}
+
+li {
+  margin-bottom: 5px; /* Add spacing between list items */
+}
+
+hr {
+  background-color: #282828;
+}
