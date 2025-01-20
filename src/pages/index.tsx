@@ -13,10 +13,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
+        <img
+          src="https://github.com/FashionablyNate.png"
+          alt="Nathan Spelts Profile"
+          className={styles.heroImage}
+        />
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          {"Hi, I'm Nathan Spelts"}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">{"This is my portfolio site."}</p>
         <div className={styles.socialLinks}>
           <a
             href="https://github.com/FashionablyNate"

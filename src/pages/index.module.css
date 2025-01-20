@@ -11,6 +11,13 @@
   background-color: var(--ifm-background-color-secondary);
 }
 
+.heroImage {
+  border-radius: 50%; /* Makes the image circular */
+  width: 25%; /* Adjust width */
+  height: 25%; /* Adjust height */
+  object-fit: cover; /* Ensures the image is cropped nicely if it's not square */
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
@@ -31,7 +38,7 @@
 }
 
 .icon {
-  color: var(--ifm-color-secondary);
+  color: var(--ifm-color-foreground);
   font-size: 3rem; /* Adjust icon size */
   transition: color 0.3s ease;
 }
