@@ -19,7 +19,7 @@ function HomepageHeader() {
           className={styles.heroImage}
         />
         <Heading as="h1" className="hero__title">
-          {"Hi, I'm Nathan Spelts"}
+          {"Hi, I'm Nathan Spelts."}
         </Heading>
         <p className="hero__subtitle">{"This is my portfolio site."}</p>
         <div className={styles.socialLinks}>

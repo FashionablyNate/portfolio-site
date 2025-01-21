@@ -69,3 +69,7 @@ html[data-theme='dark'] .navbar {
 html[data-theme='dark'] .body {
   background-color: var(--ifm-background-color-primary);
 }
+
+html {
+  scroll-behavior: smooth;
+}
